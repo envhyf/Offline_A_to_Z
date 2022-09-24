@@ -7,10 +7,11 @@ nav:
       - Filter extraction: "Preparation/Filter_extraction.md"
 
   - Instrumental analysis:
-      - System set-up: "Instrument_setup/AMS_startup.md"
-      - Daily check: "Instrument_setup/Daily_check.md"  
-      - Pre-test: ""         
-      - Instrument trouble-shooting: ""      
+      - Instrument tutorial: "Instrument_setup/Instrument_knowledge_outline.md"
+      - System set-up: "Instrument_setup/System_set-up.md"
+      - Pre-test: "Instrument_setup/Pre-test.md"          
+      - Daily check: "Instrument_setup/Daily_check.md"   
+  
 
   - Data processing:
       - AMS: ""
@@ -37,6 +38,8 @@ theme:
   logo: images/book-open-page-variant-outline.png
 
 markdown_extensions:
+  - attr_list
+  - md_in_html
   - footnotes
   - pymdownx.arithmatex:
       generic: true
@@ -50,7 +53,9 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 plugins:
   - search

@@ -6,7 +6,8 @@ __What's Included__
 
 * Detailed procedures for lab preparation of PM extracts.
 * Key steps for setting up the offline measurement system.
-* Handling of raw data from multiple Instruments. 
+* Handling of raw data from multiple Instruments.   
+
 and more ...
 
 <figure class="image">
@@ -14,6 +15,10 @@ and more ...
   <figcaption></figcaption>
 </figure>
 
-__About this document__
+__About this on-line document__
 
-Any comments or what to contribute, contact with [Yufang Hao](mailto: yufang.hao@psi.ch)
+* Materials come from collective contributions of many LACers.    
+
+* Any comments or what to contribute, contact with [Yufang Hao](mailto: yufang.hao@psi.ch)
+
+

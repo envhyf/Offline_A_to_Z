@@ -7,13 +7,13 @@ Currently, we are using glass vials for storing the filters extracts. Compared w
 
 <figure class="image">
   <img src="https://i.stack.imgur.com/zTz52.png" width="600" alt="{{ include.description }}">
-  <figcaption>Fig. 1 Parameters of glass vials</figcaption>
+  <figcaption>Fig. 1 Details of the glass vials we are using</figcaption>
 </figure>
 
 It is exteremely critical to prepare enough amount of clean glass vials confirmed via TOC analyzer. We always prepare them prior to the campaign and clean all of the used vials when all samples finished. After many tests, current protocols for cleaning can be summarized as follows:
 
 ----
-!!! Details
+!!! Note "Detailed procedures"
 
         __<span style="color: blue;">A. Standard protocol</span>__
 

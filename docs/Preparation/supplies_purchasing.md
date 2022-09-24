@@ -33,9 +33,11 @@ __How to buy__
 
 Example 1. Gloves (regular items)
 
-Example 2. NH4NO3 (chemcials)
+Example 2. Nylon filter (external supplier)
 
-Example 3. N2 (gases bottle)      
+Example 3. NH4NO3 (chemicals)
+
+Example 4. N2 (gases bottle)      
 
 !!! IMPORTANT
 
