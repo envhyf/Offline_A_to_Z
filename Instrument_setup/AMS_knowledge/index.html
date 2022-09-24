@@ -13,7 +13,7 @@
     
     
       
-        <title>System set-up - Offline A to Z</title>
+        <title>AMS operation & trouble-shooting, etc - Offline A to Z</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ams" class="md-skip">
+        <a href="#ams-operation-trouble-shooting-etc" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              System set-up
+              AMS operation & trouble-shooting, etc
             
           </span>
         </div>
@@ -272,14 +272,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
       
       
       
@@ -300,55 +298,25 @@
               
   
   
-    
+  
+    <li class="md-nav__item">
+      <a href="../Instrument_knowledge_outline/" class="md-nav__link">
+        Instrument tutorial
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
   
   
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          System set-up
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+  
+    <li class="md-nav__item">
+      <a href="../System_set-up.md" class="md-nav__link">
         System set-up
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#ams" class="md-nav__link">
-    AMS
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#reference" class="md-nav__link">
-    Reference
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -360,21 +328,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Daily_check/" class="md-nav__link">
-        Daily check
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../Pre-test.md" class="md-nav__link">
         Pre-test
       </a>
     </li>
@@ -388,8 +342,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
-        Instrument trouble-shooting
+      <a href="../Daily_check/" class="md-nav__link">
+        Daily check
       </a>
     </li>
   
@@ -558,6 +512,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -566,9 +522,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ams" class="md-nav__link">
-    AMS
+  <a href="#1-turning-onoff" class="md-nav__link">
+    1.   Turning on/off:
   </a>
+  
+    <nav class="md-nav" aria-label="1.   Turning on/off:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-turn-on" class="md-nav__link">
+    1.1 Turn on
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-turn-off" class="md-nav__link">
+    1.2 Turn off
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -593,9 +569,37 @@
                 
 
 
-  <h1>System set-up</h1>
-
-<h3 id="ams">AMS</h3>
+<h1 id="ams-operation-trouble-shooting-etc">AMS operation &amp; trouble-shooting, etc</h1>
+<p>Author: Jun Zhang, Yufang Hao</p>
+<h2 id="1-turning-onoff">1.   Turning on/off:</h2>
+<h3 id="11-turn-on">1.1 Turn on</h3>
+<ol>
+<li>Verify the inlet is closed.</li>
+<li>Press the button of “Pump Box” and “Accessory” for the power supply.</li>
+<li>Turn on the diaphragm pump (MD1) using the knob at the front panel. </li>
+<li>After the pressure is below 1 torr, turn on the turbo pumps by selecting “Start All” at the operating box, and let pump 1 to pump 5 reach 100% speed (this percentage should be seen on the screen). This will normally take about 5-20 min due to the different ToF. It is better to check the speed and power of turbo pumps and compare with the previous values.</li>
+<li>Turn on the vaporizer heater. Adjust the vaporizer power to keep the temperature at ~ 550 C. This will normally take 10-20 min.</li>
+<li>Open DAQ software from PC. Load TPS settings (e.g., menu1.txt) from PC internet browser (“localhost” in the address bar), then click “send all” to apply the pre-set voltages. Verify the filament is on by looking through the window on the right side. Check the temperature after a while, which should reach ~600 C.</li>
+<li>Turn on the chopper spinning from the controller (the blue box on TOF, the operational spinning speed is 100~140 Hz due to different setting) and turn on the inlet valve for sampling.
+a.  When the chopper position is changed on the software, the chopper should move and the air beam signal should appear.
+b.  If the air beam cannot be seen when the servo is moved, it means the servo should be replaced.</li>
+<li>Run mass calibration from DAQ.</li>
+<li>Click “acquire” from DAQ, then click “acquire” to start data collection. Check the MS AB from the left side, which should be higher than 2.0E+5.</li>
+</ol>
+<h3 id="12-turn-off">1.2 Turn off</h3>
+<ol>
+<li>Stop acquiring data in DAQ and zero all voltages in TPS.</li>
+<li>Close inlet valve.</li>
+<li>Turn off chopper spinning.
+(above is what we should do for daily standby; below is the steps for totally shut down)</li>
+<li>Turn off the heater of vaporizer power by entering 001 or using the knob at the front panel. </li>
+<li>Turn off the turbo pumps by choosing “Stop All”.</li>
+<li>After the turbo pumps have fully stopped, close the valve between the MD1 and a turbo pump if one just need AMS shut down for a short period (for example less than 1 day).</li>
+<li>Turn off the MD1.</li>
+<li>When the pumps are fully stopped, loose the two screws on the turbo pumps if AMS will have a long distance transport.</li>
+<li>Switch off the power supply to “Pump Box” and “Accessory”.</li>
+</ol>
+<p>Here is an example of more details of IE calibration <a href=""></a></p>
 <p>ToFAMS Tuning Instructions</p>
 <p>A series of videos can be seen <a href="https://support.aerodyne.com/knowledgebase/articles/KA-01306/en-us">here</a>, account needed.</p>
 <iframe src="https://youtu.be/6_qRKD1mRRM" allowfullscreen></iframe>
@@ -620,42 +624,6 @@
       </main>
       
         <footer class="md-footer">
-  
-    
-    <nav class="md-footer__inner md-grid" aria-label="Footer" >
-      
-        
-        <a href="../../Preparation/Filter_extraction/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Filter extraction" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Filter extraction
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../Daily_check/" class="md-footer__link md-footer__link--next" aria-label="Next: Daily check" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Daily check
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
